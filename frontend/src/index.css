@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 240 10% 12%;
+  --card: 0 0% 100%;
+  --border: 240 6% 90%;
+  --muted: 240 5% 96%;
+  --muted-foreground: 240 4% 46%;
+  --primary: 240 6% 10%;
+  --primary-foreground: 0 0% 98%;
+  --destructive: 0 72% 51%;
+}
+
+body {
+  @apply bg-muted text-foreground font-sans;
+}
